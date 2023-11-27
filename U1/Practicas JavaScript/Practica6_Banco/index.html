@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco "Pueblo Desconocido"</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <form class="formulario">
+        <h2>>>Consulta Credito<<</h2>
+        <select class="controles" id="tipotarjeta">
+            <option value="0">--Tipo de Tarjeta--</option>
+            <option value="1">Tipo Tarjeta 1</option>
+            <option value="2">Tipo Tarjeta 2</option>
+            <option value="3">Tipo Tarjeta 3</option>
+            <option value="4">Tipo Tarjeta 4</option>
+            <option value="5">Tipo Tarjeta 5</option>
+            <option value="6">Tipo Tarjeta 8</option>
+        </select>
+        <input class="controles" type="number" id="credito" placeholder="Credito Actual">
+        <button type="button"  class="controles" id="calcular" onclick="banco()">Calcular</button>
+        <button  class="controles" id="cancelar" type="reset">Cancelar</button>
+        <p id="resultado"></p>  
+    </form>
+    <script src="js/bancofunc.js"></script>
+</body>
+</html>

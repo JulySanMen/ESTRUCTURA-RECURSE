@@ -1,0 +1,87 @@
+*{/* Este es un selector unuversal : Ya que afecta a todas las etiquetas */
+    margin:auto;
+    /*margin-top:0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;*/
+    padding:0;
+}
+/*Selectores de etiqueta:Estos afectan */
+body{
+    background-image: url('im.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: 'Arial', sans-serif;
+}
+h2{
+    color:cornflowerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top:7px;
+    padding-bottom: 10px;
+    -webkit-text-stroke:0.5px cyan;
+}
+h4{
+    color:cornflowerblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding-bottom: 25px;
+    -webkit-text-stroke:0.5px cyan;
+}
+/*Selector de clase lleva punto*/
+.content-form{
+    width: 450px;/*tamanio de ancho*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-top: 135px;
+    border: 2px solid cornflowerblue;/*Grosor y estilo del borde*/
+    border-radius: 17px;
+    padding:37px;   
+    text-align: center;
+    backdrop-filter: blur(20px);
+    align-items: center;
+}
+input{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:rgb(184, 215, 249);
+    border: 1.5px solid cornflowerblue;
+    border-radius: 8px;
+    padding: 5px;
+    text-emphasis-color: black;
+    outline: 0.8px  cyan;;
+}
+.controles{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px
+    
+}
+/*Selector de ID*/
+#calcular{
+    width: 40%;
+    background:rgb(184, 215, 249);
+}
+#cancelar{
+    width: 40%;
+    background:rgb(184, 215, 249);
+}
+
+/*Selector de pseudoclase */
+#calcular:hover{
+    background-color:cyan;
+    cursor: pointer;
+}
+#cancelar:hover{
+    background-color:cyan;
+    cursor: pointer;
+}
+
+/*Selector de pseudoclase*/
+

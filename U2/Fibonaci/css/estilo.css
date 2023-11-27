@@ -1,0 +1,51 @@
+body{
+    background-image: url(aa.jpg);
+}
+.form{
+    width: 300px;
+    height: 420px;
+    background-image:url(aaaa.png);
+    margin: auto;
+    margin-top: 135px;
+    border: 3px solid #62aa6d;
+    border-radius: 17px;
+    padding: 28px;
+    text-align: center;
+    box-shadow: 5px 2px 8px #ef7e5cc7;
+}
+.disenoinput{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #efcd84;
+    border: 1.5px solid #f4a05f ;
+    border-radius: 8px;
+    padding: 5px;
+    outline: 0.8px;
+    color:black;
+}
+.diseno{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:  #efcd84;
+    border: 1.5px solid #f4a05f;
+    border-radius: 12px;
+    padding: 5px;
+    outline: 0.8px;
+    color: #a23f20;
+}
+.disenoca{
+    margin-top:14px;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color:  #efcd84;
+    border: 1.5px solid #f4a05f;
+    border-radius: 12px;
+    padding: 5px;
+    outline: 0.8px;
+    color: #a23f20;
+}
+#resultado{
+    margin-top: 70px;
+    height: 300px;
+    overflow-y: auto;
+}

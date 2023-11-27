@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Venta</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <form class="content-form">
+        <h2>"Formulario de Venta"</h2>
+        <h5>-Entre mas compre mas paga-</h5>
+        <select class="controles" id="producto">
+            <option value="0">--Seleccione--</option>
+            <option value="1">Hojas de hielo seco</option>
+            <option value="2">Viguetas</option>
+            <option value="3">Armazones</option>
+        </select>
+        <input class="controles" type="number" id="cantidad" placeholder="Cantidad">
+        <input class="controles" type="number" id="precio" placeholder="Precio por Unidad">
+        <select class="controles" id="tipoPago">
+            <option value="Nulo">--Seleccione--</option>
+            <option value="Contado">Contado</option>
+            <option value="Credito">Crédito</option>
+        </select>        
+        <button class="controles" id="calcularPedido" type="button" onclick="calcular()">Calcular Pedido</button>
+        <button class="controles" id="cancelar" type="reset">Cancelar</button>
+        <h6 id="resultado"></h6>
+        <h6 id="resultado2"></h6>
+        <h6 id="resultado3"></h6>
+        <h6 id="resultado4"></h6>
+        <h6 id="resultado5"></h6>
+    </form>
+   
+    <script src="js/funciones.js"></script>  
+</body>
+</html>
+
+
+

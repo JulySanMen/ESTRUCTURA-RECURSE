@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #BF360C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h2,h5 {
+    color:#FFCCBC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 0.3px white;
+}
+h6{
+    color:#FFCCBC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 0.02px;
+}
+.content-form {
+    width: 450px;
+    height: 470px;
+    background-color: #FF5722;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 135px;
+    border: 3px solid #FFCCBC;
+    border-radius: 17px;
+    padding: 37px;
+    text-align: center;
+    box-shadow: 8px 10px 30px #f4ccc0;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #f47d5cce;
+    border: 1.5px solid #FFCCBC ;
+    border-radius: 8px;
+    padding: 5px;
+    outline: 0.8px cyan;
+    color: #BF360C;
+    color:#FFCCBC;
+}
+
+select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid #FFCCBC;
+    border-radius: 20px;
+    background-color: #f47d5cce;
+    outline: 0.5px rgb(175, 236, 114) ;
+    text-align: center;
+    color:#FFCCBC;
+}
+button{
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid #FFCCBC;
+    border-radius: 20px;
+    background-color: #FFCCBC;
+    outline: 0.5px #FFCCBC ;
+    text-align: center;
+    color:#f5bfb0;
+}
+#calcularPedido {
+    background:#f47d5cce;
+    cursor: pointer;
+    
+}
+
+#cancelar {
+    background:#f47d5cce;
+    cursor: pointer;
+}
+
+/* Selector de pseudoclase */
+#calcularPedido:hover, #cancelar:hover {
+    background-color:#FFAB91;
+    padding:5px ;
+    color: #FF5722;
+}

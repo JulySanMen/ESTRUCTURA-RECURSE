@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con HTML, CSS y JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form class="content-form">
+        <h2>.:Bienvenido al Hotel Guamuchil:.</h2>
+        <h4>..Si no te quedas te vas..</h4>
+        <input class="controles" type="number" id="hosp" placeholder="No.Dias Hospedados">
+        <input class="controles" type="number" id="cos" placeholder="Precio por Dia">
+        <button  class="controles" id="calcular" type="button" onclick="hospedaje()">Calcular Hospedaje</button>
+        <button  class="controles" id="cancelar" type="reset">Cancelar</button>
+        <p id="resultado"></p>
+    </form>
+    <script src="js/funciones.js"></script>
+    
+</body>
+</html>

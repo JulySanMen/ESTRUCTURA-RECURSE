@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN</title>
+    <link rel="stylesheet" href="css/julieta-sanchez-estilo.css">
+</head>
+<body>
+    <form id="formulario">
+        <h3>Fecha Siguiente</h3>
+        <input type="number" id="dia" placeholder="Dia">
+        <input type="number" id="mes" placeholder="Mes">
+        <input type="number" id="anio" placeholder="Anio">
+        <button type="button" class="controles" id="calcular" onclick="diaSiguiente()">Calcular</button>
+        <button class="controles" id="cancelar" type="reset">Cancelar</button>
+        <button class="controles" id="nuevo" type="reset">Nuevo</button>
+      </form>
+      <form id="formulario2">
+        <p id="facturaDiv" style="display: none;"></p>
+        <p id="resultado"></p> 
+    </form>
+    <script src="js/julieta-sanchez-examen.js"></script>
+</body>
+</html>

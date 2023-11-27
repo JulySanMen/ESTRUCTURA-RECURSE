@@ -1,0 +1,73 @@
+body{
+    background-image: url('im.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position:center;
+    font-family: 'Arial', sans-serif;
+}
+h2{
+    color:rgb(226, 155, 84);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top:7px;
+    padding-bottom: 10px;
+    -webkit-text-stroke:0.2px rgb(230, 224, 211);
+}
+.formulario{
+    width: 310px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-top: 135px;
+    border: 2px solid rgb(214, 170, 39);
+    border-radius: 17px;
+    padding:37px;   
+    text-align: center;
+    backdrop-filter: blur(20px) ;
+    align-items: center;
+}
+input, #tipotarjeta{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:rgb(206, 165, 125);
+    border: 1.5px solid rgb(238, 113, 55);
+    border-radius:3px;
+    padding:4px;
+    text-emphasis-color: black;
+    outline: 0.8px;
+    color: brown;
+    align-items: center;
+}
+.controles, #tipotarjeta{
+    color: brown;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(238, 113, 55);
+    border-radius: 15px
+}
+p{
+    color: rgb(206, 165, 125);
+}
+#calcular{
+    margin-top: 20px;
+    width: 40%;
+    background:rgb(206, 165, 125);
+}
+#cancelar{
+    width: 40%;
+    background:rgb(206, 165, 125);
+}
+
+#calcular:hover{
+    background-color:rgb(238, 113, 55);
+    cursor: pointer;
+    color: bisque;
+}
+#cancelar:hover{
+    background-color:rgb(238, 113, 55);
+    cursor: pointer;
+    color: bisque;
+}
+

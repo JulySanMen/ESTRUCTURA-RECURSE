@@ -1,0 +1,104 @@
+/* Estilo de fondo y fuente */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+/* Estilo de las secciones */
+.section {
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.overlay h2 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo al pasar el cursor por encima */
+.section:hover {
+    transform: scale(1.05);
+}
+
+.section:hover .overlay {
+    opacity: 1;
+}
+
+.forza-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.2s ease;
+}
+
+.forza-text {
+    font-size: 48px; 
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+
+.info-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+

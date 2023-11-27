@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta-Autos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap">
+</head>
+<body>
+    <form id="formulario">
+        <h2>Factura</h2>
+        
+        <input type="text" placeholder="Nombre del Cliente">
+       
+        <input type="date" placeholder="Fecha">
+      
+        <select class="controles" id="origen">
+            <option value="0">--Origen del auto--</option>
+            <option value="1">Alemania</option>
+            <option value="2">Japón</option>
+            <option value="3">Italia</option>
+            <option value="4">Estados Unidos</option>
+        </select>
+      
+        <input type="text" placeholder="Marca">
+       
+        <input type="number" placeholder="Costo de Compra">
+        <button type="button" class="controles" id="calcular" onclick="calcularPrecioVenta()">Calcular</button>
+        <button class="controles" id="cancelar" type="reset">Cancelar</button>
+        <button class="controles" id="inicio" type="submit" formaction="menu.html">Inicio</button>
+
+    </form>
+    <form id="formulario2">
+        <p id="facturaDiv" style="display: none;"></p>
+        <p id="resultado"></p> 
+    </form>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
